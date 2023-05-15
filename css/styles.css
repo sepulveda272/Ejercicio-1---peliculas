@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header, main{
+    text-align: center;
+}
+
+
+.img_cinemark{
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+.search{
+    margin-top: 2rem;
+    padding: 10px;
+    border-radius: 3rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.search:hover{
+    background-color:black;
+    border: 3px solid red;
+    color: white;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.verMas{
+    background-color: red;
+    border-radius: 2rem;
+    transition: all 0.5s ease;
+
+}
+
+.verMas:hover{
+    color: white;
+    background-color: black;
+    padding: 5%;
+    transition: all 0.5s ease;
+}
+
+.card1{
+    background-color: rgb(33, 28, 100);
+    color: white;
+}
+
+.card1 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.info{
+    padding: 1rem;
+}
+
+.info h5{
+    font-size: 15px;
+}
+.camperT{
+    font-family: 'Vina Sans', cursive;
+    font-size: 10rem;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    background: url(https://media.tenor.com/l5arkXy9RfIAAAAC/thunder.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mover 10s linear infinite;
+    letter-spacing: 1rem;
+}
+
+@keyframes mover{
+    from{
+        background-position: 0 80%;
+    }
+    to{
+        background-position: 100% 50%;
+    }
+}
